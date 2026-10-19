@@ -16,6 +16,8 @@
   <img src="Converze%202.png" alt="Converze Preview 2" width="48%" />
 </p>
 
+<img width="600" height="554" alt="Converze Demo" src="https://github.com/user-attachments/assets/66acc898-835f-4530-841d-f671886ec060" />
+
 ---
 
 ## How it works
