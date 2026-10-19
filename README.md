@@ -17,6 +17,10 @@
 </p>
 
 <p align="center">
+See it in action:
+</p>
+
+<p align="center">
   <img width="600" height="554" alt="Converze Demo" src="https://github.com/user-attachments/assets/66acc898-835f-4530-841d-f671886ec060" />
 </p>
 
