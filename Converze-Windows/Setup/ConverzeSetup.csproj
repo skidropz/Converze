@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>Converze-Setup</AssemblyName>
+    <RootNamespace>ConverzeSetup</RootNamespace>
+    <ApplicationIcon>..\Resources\AppIcon.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Version>1.0</Version>
+    <Product>Converze Setup</Product>
+    <Company>Converze</Company>
+    <Description>Converze Installer for Windows</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="..\dist\payload.zip" LogicalName="payload.zip" Condition="Exists('..\dist\payload.zip')" />
+    <EmbeddedResource Include="..\Resources\AppIcon.png" LogicalName="AppIcon.png" />
+  </ItemGroup>
+
+</Project>
