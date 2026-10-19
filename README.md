@@ -58,19 +58,8 @@ Converze includes **Light Mode**, **Dark Mode**, **System Auto**, **6 color pale
 
 ---
 
-## Build & Install
+## Download
 
-### macOS
-```bash
-chmod +x build_app.sh create_installer.sh
-./create_installer.sh
-```
-Generates `dist/Converze-Installer.dmg` and `dist/Converze-Installer.pkg`.
-
-### Windows
-Double-click **`build_windows.bat`** or **`create_windows_installer.bat`** (requires [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)).  
-Generates `dist\Converze\Converze.exe` and `dist\Converze-Windows-Installer.zip`.
-
-There are also already compiled versions under the "Release" tab.
+Download is available under the RELEASE tab, for macOS and Windows. Both are compiled and ready to use.
 
 ---
