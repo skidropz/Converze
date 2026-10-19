@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="50%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="activeWedge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="50%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <radialGradient id="glassWedge" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#E2E8F0" stop-opacity="0.90"/>
+    </radialGradient>
+  </defs>
+
+  <!-- macOS Rounded Squircle Background -->
+  <rect x="64" y="64" width="896" height="896" rx="200" fill="url(#bgGrad)"/>
+
+  <!-- 8 Converze Radial Wedges -->
+  <g transform="translate(512, 512)">
+    <!-- Highlighted Top Cobalt Sapphire Slice -->
+    <path d="M -52,-180 L -115,-340 Q -130,-380 -85,-392 A 395,395 0 0,1 85,-392 Q 130,-380 115,-340 L 52,-180 Q 42,-152 0,-152 Q -42,-152 -52,-180 Z" fill="url(#activeWedge)"/>
+    <!-- Remaining 7 Frosted Glass Slices -->
+    <g fill="url(#glassWedge)">
+      <path transform="rotate(45)" d="M -46,-172 L -102,-320 Q -115,-355 -75,-366 A 370,370 0 0,1 75,-366 Q 115,-355 102,-320 L 46,-172 Q 38,-146 0,-146 Q -38,-146 -46,-172 Z"/>
+      <path transform="rotate(90)" d="M -46,-172 L -102,-320 Q -115,-355 -75,-366 A 370,370 0 0,1 75,-366 Q 115,-355 102,-320 L 46,-172 Q 38,-146 0,-146 Q -38,-146 -46,-172 Z"/>
+      <path transform="rotate(135)" d="M -46,-172 L -102,-320 Q -115,-355 -75,-366 A 370,370 0 0,1 75,-366 Q 115,-355 102,-320 L 46,-172 Q 38,-146 0,-146 Q -38,-146 -46,-172 Z"/>
+      <path transform="rotate(180)" d="M -46,-172 L -102,-320 Q -115,-355 -75,-366 A 370,370 0 0,1 75,-366 Q 115,-355 102,-320 L 46,-172 Q 38,-146 0,-146 Q -38,-146 -46,-172 Z"/>
+      <path transform="rotate(225)" d="M -46,-172 L -102,-320 Q -115,-355 -75,-366 A 370,370 0 0,1 75,-366 Q 115,-355 102,-320 L 46,-172 Q 38,-146 0,-146 Q -38,-146 -46,-172 Z"/>
+      <path transform="rotate(270)" d="M -46,-172 L -102,-320 Q -115,-355 -75,-366 A 370,370 0 0,1 75,-366 Q 115,-355 102,-320 L 46,-172 Q 38,-146 0,-146 Q -38,-146 -46,-172 Z"/>
+      <path transform="rotate(315)" d="M -46,-172 L -102,-320 Q -115,-355 -75,-366 A 370,370 0 0,1 75,-366 Q 115,-355 102,-320 L 46,-172 Q 38,-146 0,-146 Q -38,-146 -46,-172 Z"/>
+    </g>
+    <!-- Center Cutout Ring -->
+    <circle cx="0" cy="0" r="118" fill="#0F172A" stroke="#60A5FA" stroke-width="6"/>
+  </g>
+</svg>
