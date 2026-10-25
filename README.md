@@ -28,10 +28,10 @@ See it in action:
 
 ## How it works
 
-1. **Hold the shortcut key** — Hold **`⌥ Option`** in macOS or **`Alt`** in Windows.
-2. **Click or drag a file** — Left-click or drag any selected file to open the radial wheel right under your cursor.
-3. **Pick a format** — Click or release on the target format slice (`WEBP`, `PNG`, `PDF`, `MP4`, `MP3`, `ZIP`, etc.). The converted file is saved immediately next to the original.
-4. **Quick dismiss** — Press **`ESC`** or click anywhere outside the wheel to close it.
+1. Hold **`⌥ Option`** in macOS or **`Alt`** in Windows.
+2. Left-click or drag any selected file to open the radial wheel right under your cursor.
+3. Click or release on the target format slice (`WEBP`, `PNG`, `PDF`, `MP4`, `MP3`, `ZIP`, etc.). The converted file is saved immediately next to the original.
+4. Press **`ESC`** or click anywhere outside the wheel to close it.
 
 ---
 
@@ -64,6 +64,6 @@ Converze includes **Light Mode**, **Dark Mode**, **System Auto**, **6 color pale
 
 ## Download
 
-Download is available under the RELEASE tab, for macOS and Windows. Both are compiled and ready to use.
+Download is available under the **RELEASE** tab, for macOS and Windows. Both are compiled and ready to use.
 
 ---
